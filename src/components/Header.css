@@ -1,0 +1,9 @@
+/* src/components/Header.css */
+.header {
+    background-color: #34495e;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-left: 200px; /* Matches Sidebar width */
+  }
+  

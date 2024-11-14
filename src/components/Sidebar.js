@@ -1,20 +1,17 @@
 // src/components/Sidebar.js
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Drawer, List, ListItem, ListItemText } from '@mui/material';
+import './Sidebar.css';
 
 const Sidebar = () => {
   return (
-    <Drawer variant="permanent" anchor="left">
-      <List>
-        <ListItem button component={Link} to="/">
-          <ListItemText primary="Home" />
-        </ListItem>
-        <ListItem button component={Link} to="/dashboard">
-          <ListItemText primary="Dashboard" />
-        </ListItem>
-      </List>
-    </Drawer>
+    <div className="sidebar">
+      <h2>Dashboard</h2>
+      <ul>
+        <li>Overview</li>
+        <li>Reports</li>
+        <li>Settings</li>
+      </ul>
+    </div>
   );
 };
 

@@ -1,0 +1,21 @@
+/* src/components/Dashboard.css */
+.dashboard {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 200px; /* Matches Sidebar width */
+  }
+  
+  .chart-container,
+  .stats-card {
+    flex: 1;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+  }
+  
+  .stats-card h2,
+  .chart-container h2 {
+    margin-bottom: 15px;
+  }
+  
